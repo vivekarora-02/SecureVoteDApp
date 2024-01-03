@@ -1,0 +1,26 @@
+[
+    
+    {
+        "imgUrl" : "https://yt3.ggpht.com/tEuOjZNWRE9DuJBy7bHzKtL8dX_EteW-qJIREvOXq3tVBfpdn8Nz0zIpkLHg-5wZzX3PgMnIQg=s900-c-k-c0x00ffffff-no-rj",
+        "candidateName" : "Narendra Modi",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "party" : "Bhartiya Janta Party",
+        "experience" : "35 years+",
+        "age" : "72 years",
+        "state" : "Uttar Pradesh",
+        "district" : "Varanasi"
+    },
+    
+        {
+            "imgUrl" : "https://yt3.ggpht.com/tEuOjZNWRE9DuJBy7bHzKtL8dX_EteW-qJIREvOXq3tVBfpdn8Nz0zIpkLHg-5wZzX3PgMnIQg=s900-c-k-c0x00ffffff-no-rj",
+            "candidateName" : "Narendra Modi",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+            "party" : "Bhartiya Janta Party",
+            "experience" : "35 years+",
+            "age" : "72 years",
+            "state" : "Uttar Pradesh",
+            "district" : "Varanasi"
+        }
+    
+   
+]

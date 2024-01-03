@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.create-election{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+.create-election .container-registration{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+.create-election .container-registration .title{
+  font-size: 25px;
+  font-weight: 500;
+  color: black;
+  position: relative;
+}
+.create-election .container-registration .title::before{
+  content: "";
+    position: absolute;
+    margin: -11px 5px;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ffb369 0%,#ff4272 100%);
+}
+.create-election .content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+.create-election form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+.create-election form .input-box span.details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.create-election .user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+.create-election .user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: #ff4272;
+}
+.create-election form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+ }
+ .create-election  form .category{
+   display: flex;
+   width: 80%;
+   margin: 14px 0 ;
+   justify-content: space-between;
+ }
+ .create-election form .category label{
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+ }
+ .create-election form .category label .dot{
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+  background: #d9d9d9;
+  border: 5px solid transparent;
+  transition: all 0.3s ease;
+}
+.create-election #dot-1:checked ~ .category label .one,
+ #dot-2:checked ~ .category label .two,
+ #dot-3:checked ~ .category label .three{
+   background: #ff4272;
+   border-color: #d9d9d9;
+ }
+ .create-election form input[type="radio"]{
+   display: none;
+ }
+ .create-election form .button{
+   height: 45px;
+   margin: 35px 0
+ }
+ .create-election form .button input{
+   height: 100%;
+   width: 100%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: linear-gradient(to right, #ffb369 0%,#ff4272 100%); ;
+ }
+ .create-election form .button input:hover{
+  /* transform: scale(0.99); */
+  background: linear-gradient(to right, #ffb369 0%,#ff4272 100%); ;
+  }
+ @media(max-width: 584px){
+    .create-election .container{
+  max-width: 100%;
+}
+.create-election form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .create-election  form .category{
+    width: 100%;
+  }
+  .create-election .content form .user-details{
+    max-height: 300px;
+    overflow-y: scroll;
+  }
+  .create-election .user-details::-webkit-scrollbar{
+    width: 5px;
+  }
+  }
+  @media(max-width: 459px){
+    .create-election .container .content .category{
+    flex-direction: column;
+  }
+}
